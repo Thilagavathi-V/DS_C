@@ -37,7 +37,7 @@ void binary_no() {
     while(low <= high) {
         mid = (low + high)/2;
         
-        if (mid == key) {
+        if (Arr[mid] == key) {
             printf("Number found at position %d", mid+1);
             found = 1;
             break;
